@@ -83,7 +83,7 @@ docker run -d \
     -e DOCKER_PASSWORD=`id -un` \
     -e DOCKER_GROUP_ID=`id -g` \
     -e DOCKER_ADMIN_USER=`id -un` \
-    -v /workdir:/workdir \
+    -v `pwd`:/workdir \
     -v /home:/home_host \
     dclong/jupyterhub-scala
 ```
