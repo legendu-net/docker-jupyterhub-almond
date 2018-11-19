@@ -11,8 +11,4 @@ RUN /usr/local/bin/coursier bootstrap \
         -I user:sh.almond:scala-kernel-api_$SCALA_VERSION:$ALMOND_VERSION \
         -o /usr/local/bin/almond \
         sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
-    && /usr/local/bin/almond --install \
-    && mv /root/.local/share/jupyter/kernels/scala /usr/local/share/jupyter/kernels/ \
-    && chmod -R +r /usr/local/share/jupyter/kernels/scala/
-
-COPY settings/kernel.json /usr/local/share/jupyter/kernels/scala/
+    && /usr/local/bin/almond --install --global
