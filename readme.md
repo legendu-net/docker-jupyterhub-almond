@@ -1,6 +1,6 @@
-# [dclong/jupyterhub-scala](https://hub.docker.com/r/dclong/jupyterhub-scala/)
+# [dclong/jupyterhub-almond](https://hub.docker.com/r/dclong/jupyterhub-almond/)
 
-JupyterHub with Scala in Docker. 
+JupyterHub with the Scala kernel (using Almond) in Docker. 
 
 ## Detailed Information
 
