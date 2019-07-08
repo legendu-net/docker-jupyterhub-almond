@@ -46,7 +46,7 @@ docker run -d \
     -v `dirname $HOME`:/home_host \
     dclong/jupyterhub-almond
 ```
-## [Use Spark in JupyterLab Notebook with the BeakerX Scala Kernel](http://www.legendu.net/en/blog/my-docker-images/#use-spark-in-jupyterlab-notebook-the-beakerx-scala-kernel)
+## [Use Spark in JupyterLab Notebook](http://www.legendu.net/en/blog/my-docker-images/#use-spark-in-jupyterlab-notebook)
 
 ## [Detailed Information](http://www.legendu.net/en/blog/my-docker-images/#list-of-images-and-detailed-information) 
 
