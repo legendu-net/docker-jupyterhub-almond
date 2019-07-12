@@ -3,7 +3,7 @@ FROM dclong/jupyterhub-jdk
 ARG SCALA_VERSION=2.11.12 
 ARG ALMOND_VERSION=0.6.0
 
-RUN curl -L -o /usr/local/bin/coursier https://git.io/coursier \
+RUN curl -L -o /usr/local/bin/coursier https://git.io/coursier-cli \
     && chmod +x /usr/local/bin/coursier
 
 RUN /usr/local/bin/coursier bootstrap \
