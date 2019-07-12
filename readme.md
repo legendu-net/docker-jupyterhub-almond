@@ -1,6 +1,6 @@
 # dclong/jupyterhub-almond [@DockerHub](https://hub.docker.com/r/dclong/jupyterhub-almond/) | [@GitHub](https://github.com/dclong/docker-jupyterhub-almond)
 
-JupyterHub with the Scala kernel (using Almond) in Docker. 
+JupyterHub with the Scala kernel using [Almond](https://github.com/almond-sh/almond) in Docker. 
 
 ## Usage in Linux/Unix
 
