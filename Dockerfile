@@ -7,6 +7,7 @@ RUN curl -L -o /usr/local/bin/coursier https://git.io/coursier-cli \
     && chmod +x /usr/local/bin/coursier
 
 RUN /usr/local/bin/coursier bootstrap \
+        -r jitpack \
         -i user \
         -I user:sh.almond:scala-kernel-api_$SCALA_VERSION:$ALMOND_VERSION \
         -o /usr/local/bin/almond \
