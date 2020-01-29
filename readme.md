@@ -2,6 +2,10 @@
 
 JupyterHub with the Scala kernel using [Almond](https://github.com/almond-sh/almond) in Docker. 
 
+## Prerequisite
+You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
+
+
 ## Usage in Linux/Unix
 
 Please refer to the Section
