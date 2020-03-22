@@ -18,7 +18,7 @@ and mounts the current working directory and `/home` on the host machine
 to `/workdir` and `/home_host` in the container respectively.
 ```
 docker run -d \
-    --name jupyterhub-almond \
+    --hostname jupyterhub-almond \
     --log-opt max-size=50m \
     -p 8000:8000 \
     -p 5006:5006 \
