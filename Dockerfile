@@ -1,7 +1,7 @@
 FROM dclong/jupyterhub-jdk
 
 ARG SCALA_VERSION=2.11.12 
-ARG ALMOND_VERSION=0.6.0
+ARG ALMOND_VERSION=0.9.1
 
 RUN curl -L -o /usr/local/bin/coursier https://git.io/coursier-cli \
     && chmod +x /usr/local/bin/coursier
