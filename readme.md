@@ -1,6 +1,14 @@
 # dclong/jupyterhub-almond [@DockerHub](https://hub.docker.com/r/dclong/jupyterhub-almond/) | [@GitHub](https://github.com/dclong/docker-jupyterhub-almond)
 
 JupyterHub with the Scala kernel using [Almond](https://github.com/almond-sh/almond) in Docker. 
+<span style="color:red">
+This Docker image is no longer maintained.
+</span>
+Please refer to 
+[Recommended Docker Images](http://www.legendu.net/en/blog/my-docker-images/#recommended-docker-images) 
+for alternatives.
+
+## [Recommended Docker Images](http://www.legendu.net/en/blog/my-docker-images/#recommended-docker-images) 
 
 ## Prerequisite
 You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
